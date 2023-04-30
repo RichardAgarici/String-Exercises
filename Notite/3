@@ -50,3 +50,5 @@ flags : '-', '+', '0', '', '('
                 aici se sterg spatii si se pune principal java si restul pana la 20 de campuri se lasa spatii goale
 
 
+        .printf() cu .format() sunt acelasi lucru
+

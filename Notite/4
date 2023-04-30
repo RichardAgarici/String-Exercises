@@ -1,0 +1,14 @@
+.length() = returneaza int cu numarul de caractere
+
+.toLowerCase = returneaza string cu toate LITERELE in caractere mici
+
+.toUpperCase() = returneaza string ( se creaza un obiect nou ) cu toate LITERELE in caractere mari
+
+.trim() = sterge toate spatiile goale din string si returneaza un string
+
+.substring(starting index(int)) = returneaza un nou string in care se incepe de la int indicat si ia pana la final
+.substring(start, end (int)) = returneaza un nou string in care se ia si inceputu si sfarsitul.
+
+.replace(old char, new char) = inlocuieste sa zice 'c' cu 'k'
+
+
