@@ -1,0 +1,31 @@
+        System.out.printf("Hello"); - print f este o medoda care este overloaded cu 1 sau mai multe argumente
+        de exemplu un string modificat ca regex, poate avea multiple cariante ce se modifica in interiorul stringului
+        \n in string e new line. conteaza foarte multe unde e plasat
+
+        int x=10;
+        float y=12.55f;
+        char z ='A';
+        System.out.printf("Hello");
+
+        System.out.printf("Hello %d %f %c World \n",x,y,z);
+
+        in cazul acesta regexul formateaza stringul in functie de %
+        exemplu
+        %d = inlocuieste un decimal (int) oriunde punem %d
+        %o = inlocuieste un octadecimal (int)
+        %x = inlocuieste un hexazecimal (int)
+        %f = inlocuieste un float (double)
+        %e = inlocuieste un float (double) cu valoarea real matematica in functie de variabila E (mai cerceteaza)
+        %g = idem
+        %c = inlocuieste un char
+        aceastea se numesc control caracters
+        %s = inlocuieste string
+
+        %1$d = exemplul acesta inseamna %1-ia primul argument, $-de tipul, d-decimal(int).
+        ia primul argument care il bag in f sa accepte un decimal.
+        %2$s - al doilea argument din format sa accepte un string
+
+        in cazuri de genul $s se poate reutiliza de nenumarate ori
+
+
+
