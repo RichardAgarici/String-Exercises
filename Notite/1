@@ -1,0 +1,17 @@
+.out - este un obiect static al clasei System care poate invoca la randul ei mai multe metode overloaded
+System.out.print() - printare simpla
+System.out.println() - printare pe urmatoarea linie.
+System.out.printf() - formateaza in functie de nevoie. are mai multe variante overloaduite
+System.out.format
+
+NU se poate utiliza " , " ca si parametru de intrare
+ex sout(x, y)
+
++ este numit o concatenare a unu string. functioneaza doar string pe string
+
++ in java este o metoda. care poate fi overloaduita. de exe. 2 stringuri = concatenare 2 cifre = adunare.
+
+foarte important la stringuri :
+System.out.println("hello "+a+b); java citeste in linie dreapta deci rezultatul va fi:
+hello 1020 nu hello 30 deoarece nu am pus a+b intr-o alta funtie separata. + fara definire clara a datelor este concatenare
+
