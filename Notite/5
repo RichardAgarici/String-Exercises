@@ -1,0 +1,19 @@
+ System.out.println(str1.startsWith("Shah",4));
+ = boolean care verifica daca stringul care incepe la index 4(3) este egal cu sintaxa "Shah"
+
+     System.out.println(str2.indexOf('.',4));
+     =returneaza un intiger care incepe sa verifice indexul unde gaseste . incepand de la index 4 al stringului
+
+     System.out.println(str2.lastIndexOf('.'));
+     =returneaza un int calculand invers de la capat la coada indexul stringului
+
+
+        String str3="python";
+        String str4="python";
+
+        str3.equals(str4);
+        =compara OBIECTUL str3 cu str4 si returneaza un boolean bazat pe asta.
+
+        str1.equalsIgnoreCase(str2)
+        =compara daca 2 stringuri sunt egale lexial (java=JAVA). Return boolean.
+
