@@ -1,0 +1,52 @@
+print format formula
+%[argument_index$][flags][width][.precision]conversion
+
+
+flags : '-', '+', '0', '', '('
+
+
+        int a = 10;
+        System.out.printf("%5d",a);
+        rezulta = pune 5 spatii goale inainte sa inlocuiesti d cu digit 10 rezulta 5spatii10
+
+        System.out.printf("%05d",a);
+        rezulta = pune 5 spatii in total si daca decimala are 2 cifre, restul le pune cu 0-ori
+        00010
+
+
+        int b =-10;
+        System.out.printf("\n%(5d",b);
+        rezulta = pune 5 spatii in total dar DOAR daca e numar negativ, acesta va calcula cifrele + 2 spatii pentru paranteze
+        ss(10) = 2 spatii si 10 intre paranteze.
+        la decimala pozitiva functioneaza acelasi tip %5d. practic ignora paranteza daca e pozitiv
+
+        System.out.printf("\n%+5d",a);
+        System.out.printf("\n%+5d",b);
+        rezulta = pune 5 spatii in total si arata semnul in care este specificat in decimala (+ sau -)
+
+
+        float c =123.45f ;
+
+        System.out.printf("\n%6f",c);
+        va printa valoarea completa a floatului deoarece nu este precizat exact ce dorecte utilizatorul
+
+        System.out.printf("\n%6.2f",c);
+        va printa 6 digits din numar, dar va pune doar 2 cifre dupa virgula.
+        rezulta 123,45 . aici virgula este considerata un digit.
+
+        daca de exemplu numarul nostru este format din mai mult decat spatii pe care le mentionam acesta va lua in
+        considerare doar .2 deoarece trebuie sa faca display
+
+        d = 3.12
+        daca de exemplu numarul nostru are 3.12 si 6 cifre introduse va pune 2 spatii in plus pe string
+        ex:%6.2f = ss3.12
+        %06.2f =003.12 deoarece 3.12 is 4 spatii si umple restul stringului cu 2 zerouri
+
+        String str ="Java";
+
+                System.out.printf("\n%20s",str);
+                aici se iau 20 de campuri din care 4 sunt ocupate de "Java" restul, spatii goale. functioneaza acelasi arg cu 0
+                System.out.printf("\n%-20s",str);
+                aici se sterg spatii si se pune principal java si restul pana la 20 de campuri se lasa spatii goale
+
+
