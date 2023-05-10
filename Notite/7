@@ -1,0 +1,9 @@
+        String str1="abcdef";
+        System.out.println(str1.matches(".*"));
+        sunt permise orice caracter odata sau multiplicat acea functie de cate ori vrem
+        * e pentru mai multe
+
+PATTERN
+Class Pattern as representation of a compiled regular expression
+An object with an expression representation is obtained by calling the compile(regexAsString) static method:
+Pattern exemples.pattern = Pattern.compile("a+bcd");

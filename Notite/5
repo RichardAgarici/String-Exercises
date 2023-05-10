@@ -17,3 +17,19 @@
         str1.equalsIgnoreCase(str2)
         =compara daca 2 stringuri sunt egale lexial (java=JAVA). Return boolean.
 
+        .concat() cu + e tot una
+
+        String str3="sss";
+        System.out.println(str3.matches("."));
+        aici matches este un boolean care verifica daca stringul contine numarul de caractere ca si in regexul atasat. adica 1
+        cum sss is 3 litere, va returna mereu false
+
+
+         String str4="p";
+         System.out.println(str4.matches("[^abc]"));
+         returneaza un boolean daca NU gaseste abc
+
+         String str5="b";
+         System.out.println(str5.matches("[abc]"));
+         returneaza un boolean daca gaseste DOAR 1 din caracterele mentionate in paranteza
+

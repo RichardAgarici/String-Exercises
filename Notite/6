@@ -1,0 +1,33 @@
+       String str6="p";
+        System.out.println(str6.matches("[a-z]"));
+        returneaza un boolean daca caracterul ascii apare in intervalul a-z
+
+        String str7="A";
+                System.out.println(str7.matches("[a-zA-Z0-9]"));
+                Se pot pune nenumarate argumente regex.
+                returneaza un boolean daca gaseste ascii code intre a-z si 0-9
+                codu ascii functioneaza both upper and lowercase
+
+
+        String str8="a7";
+        System.out.println(str8.matches("[a-z][0-9]"));
+
+        return boolean daca gaseste a7 intre a-z si 0-9
+
+        String str9="a";
+        System.out.println(str9.matches("a|b"));
+        returneaza boolean daca e ori a ori b in string
+
+
+        String str10="a";
+        System.out.println(str10.matches("\\w "));
+        returneaza boolean daca a este litera datorita lui \w
+        \ nu se poate scrie in scrie, deoarece e rezervat asa sa trebuie \\ ca sa se confirme ca e \
+        \\w pentru o litera
+        \\W pentru a confirma ca NU este o litera
+        \\d pentru un digit
+        \\D pentru a confirma ca NU este un digit
+        \\s pentru space
+        \\S pentru no space
+
+
